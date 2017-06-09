@@ -43,12 +43,12 @@ public class Application extends android.app.Application {
     public static final String TAG = "Todo";
     public static final String LOGIN_FLOW_ENABLED = "login_flow_enabled";
 
-    private Boolean mLoginFlowEnabled = false;
+    private Boolean mLoginFlowEnabled = true;
     private Boolean mEncryptionEnabled = false;
     private Boolean mSyncEnabled = false;
     private String mSyncGatewayUrl = "http://10.0.2.2:4984/todo/";
     private Boolean mLoggingEnabled = false;
-    private Boolean mUsePrebuiltDb = false;
+    private Boolean mUsePrebuiltDb = true;
     private Boolean mConflictResolution = false;
 
     public Database getDatabase() {

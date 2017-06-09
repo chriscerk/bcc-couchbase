@@ -316,7 +316,7 @@ public class ListsActivity extends AppCompatActivity {
         final EditText input = new EditText(this);
         input.setMaxLines(1);
         input.setSingleLine(true);
-        String text = (String) list.getProperty("name");
+        String text = list.getProperty("name").toString().toUpperCase();
         input.setText(text);
         alert.setView(input);
         alert.setPositiveButton("Ok", new DialogInterface.OnClickListener() {
@@ -327,7 +327,7 @@ public class ListsActivity extends AppCompatActivity {
                         @Override
                         public boolean update(UnsavedRevision newRevision) {
                             Map<String, Object> props = newRevision.getUserProperties();
-                            props.put("name", input.getText().toString());
+                            props.put("name", input.getText().toString().toUpperCase());
                             newRevision.setUserProperties(props);
                             return true;
                         }

@@ -286,6 +286,7 @@ public class TasksFragment extends Fragment {
 
             try {
                 task.putProperties(properties);
+                deleteTask(task);
             } catch (CouchbaseLiteException e) {
                 Log.e(Application.TAG, "Cannot update checked status", e);
             }
