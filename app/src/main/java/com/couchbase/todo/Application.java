@@ -44,12 +44,12 @@ public class Application extends android.app.Application {
     public static final String LOGIN_FLOW_ENABLED = "login_flow_enabled";
 
     private Boolean mLoginFlowEnabled = true;
-    private Boolean mEncryptionEnabled = false;
-    private Boolean mSyncEnabled = false;
+    private Boolean mEncryptionEnabled = true;
+    private Boolean mSyncEnabled = true;
     private String mSyncGatewayUrl = "http://10.0.2.2:4984/todo/";
     private Boolean mLoggingEnabled = false;
     private Boolean mUsePrebuiltDb = true;
-    private Boolean mConflictResolution = false;
+    private Boolean mConflictResolution = true;
 
     public Database getDatabase() {
         return database;
