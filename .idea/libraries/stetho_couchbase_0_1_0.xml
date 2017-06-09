@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="stetho-couchbase-0.1.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.android/build-cache/9d4da55b26ff3a94b060c38199e4c4fc84a0aad0/output/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.android/build-cache/9d4da55b26ff3a94b060c38199e4c4fc84a0aad0/output/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.robotpajamas.stetho/stetho-couchbase/0.1.0/dda7a411ac06a10bec741c7575d68dc12f2ce744/stetho-couchbase-0.1.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

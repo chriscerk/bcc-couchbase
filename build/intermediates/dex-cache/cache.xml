@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\beercity\couchbase\project\bcc-couchbase\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9ed1d7077b22392da81ba4d62f823c3056e4e73f">
+        <dex dex="C:\beercity\couchbase\project\bcc-couchbase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_92de3add724938bf171d9e8fe76fbf5df13b11e0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\beercity\couchbase\project\bcc-couchbase\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="C:\beercity\couchbase\project\bcc-couchbase\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_247ef847c10f0f479e3f5d2239856cf505e2162b\classes.dex" />
+    </item>
+
+</items>
