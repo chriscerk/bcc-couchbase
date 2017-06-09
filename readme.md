@@ -9,6 +9,8 @@ Couchbase Lite (client) connects with Sync Gateway to manage the current state o
 
 Channels specify permission control for documents. ( '!' is the public channel)
 
+A view is the persisted set of documents.
+
 
 ## Useful links:
 
